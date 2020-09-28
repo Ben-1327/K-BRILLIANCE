@@ -1,0 +1,2 @@
+module Jp::HomesHelper
+end
