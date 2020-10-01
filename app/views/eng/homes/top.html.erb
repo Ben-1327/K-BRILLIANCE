@@ -3,10 +3,10 @@
 <div class="top_page">
   <div class="top_img">
     <div class="shop_message">
-      <h1>" We know beauty<br>So get beautiful with us "</h1>
+      <h1>We know beauty<br>So get beautiful with us</h1>
     </div>
   </div>
-  <div id="about" class="about_space">
+  <div id="about" class="about_area area">
     <div class="container">
       <div class="title_area">
         <h2 class="each_title">About Us</h2>
@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="menu_area">
+  <div class="menu_area area">
     <div class="container">
       <div class="title_area">
         <h2 class="each_title">Menu</h2>
@@ -35,13 +35,13 @@
         <table class="menu_table">
           <thead>
             <tr>
-              <th>menu</th>
-              <th>duration</th>
-              <th>price</th>
-              <th></th>
-              <th>menu</th>
-              <th>duration</th>
-              <th>price</th>
+              <th class="menu_name">menu</th>
+              <th class="menu_duration">duration</th>
+              <th class="menu_price">price</th>
+              <th class="menu_gap"></th>
+              <th class="menu_name">menu</th>
+              <th class="menu_duration">duration</th>
+              <th class="menu_price">price</th>
             </tr>
           </thead>
           <tbody>
@@ -121,18 +121,19 @@
       </div>
     </div>
   </div>
-  <div class="access_area">
+  <div class="access_area area">
     <div class="container">
       <div class="title_area">
         <h2 class="each_title">Access</h2>
       </div>
-      <div class="row">
+      <div class="row info_area">
         <div class="col img_area">
           <%= image_tag "shop_02.jpg", class: "shop_img_02", :width => "650", :height => "350" %>
         </div>
-        <div class="col info_area">
-          <table>
-            <h3>K'BRILLIANCE</h3>
+        <div class="col shop_info_area">
+          <%= image_tag "logo_01.png", class: "info_logo", :width => "80", :height => "80" %>
+          <h3>K'BRILLIANCE</h3>
+          <table class="info_table">
             <tbody>
               <tr>
                 <th>Location</th>
@@ -161,17 +162,18 @@
       </div>
     </div>
   </div>
-  <div class="reserve_area">
+  <div class="reserve_area area">
     <div class="container">
       <div class="title_area">
         <h2 class="each_title">Reserve</h2>
       </div>
-      <div class="form_btn">
-        <%= link_to "Reserve", "#" %>
-      </div>
-      <div class="reserve_text">
-        ご依頼・ご質問・お見積もりは<br>
-        こちらまで
+      <div class="reserve_contents">
+        <div class="reserve_text">
+          <p>Click here to make a reservation</p>
+        </div>
+        <div class="form_btn">
+          <%= link_to "Reserve", "#" %>
+        </div>
       </div>
     </div>
   </div>

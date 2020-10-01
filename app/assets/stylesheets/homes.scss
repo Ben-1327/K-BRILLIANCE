@@ -3,11 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+
 .top_img{
   background-image: image-url("top_img.jpg");
   background-attachment: fixed;
   background-size: cover;
-  height: 92vh;
+  height: 90vh;
+}
+
+.area{
+  margin: 50px 0;
 }
 
 .shop_message{
@@ -21,19 +26,23 @@
 
 .shop_message h1{
   text-align: center;
+  color: #404040;
 }
 
 .title_area{
   text-align: center;
 }
 
+
 .each_title{
   display: inline-block;
-  background: linear-gradient(transparent 60%, orange 50%);
+  background: linear-gradient(transparent 60%, #ffb2ff 50%);
+  margin-bottom: 50px;
 }
 
 .text_area{
   position: relative;
+  margin-left: 50px;
 }
 
 .text_area p{
@@ -42,3 +51,97 @@
   -webkit-transform : translateY(-50%);
   transform : translateY(-50%);
 }
+
+// Access
+  // shop_info
+    .shop_info_area{
+      position: relative;
+      margin-left: 50px;
+    }
+
+    .info_logo{
+      position: absolute;
+    }
+
+    .shop_info_area h3{
+      position: absolute;
+      top: 20px;
+      left: 30%;
+    }
+
+    // info table
+      .info_table{
+        position: absolute;
+        top: 50%;
+        -webkit-transform : translateY(-50%);
+        transform : translateY(-50%);
+        margin: 30px 0;
+      }
+
+      .info_table tbody tr td{
+        padding: 10px 0;
+      }
+
+      .info_table tbody th{
+        padding-right: 40px;
+      }
+
+  // マップ
+    .map_area{
+      margin: 40px 0;
+      text-align: center;
+    }
+
+
+
+// メニューエリア
+  .menu_area{
+    background-image: image-url("top_img.jpg");
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    background-size: cover;
+  }
+
+  // メニューテーブル
+
+    .menu_table tbody tr td{
+      padding: 20px 0;
+    }
+
+    .menu_name{
+      width: 300px;
+    }
+
+    .menu_duration{
+      width: 75px;
+    }
+
+    .menu_price{
+      width: 65px;
+    }
+
+    .menu_gap{
+      width: 50px;
+    }
+
+
+// 予約
+  .reserve_area{
+    background-image: image-url("top_img.jpg");
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .reserve_contents{
+    text-align: center;
+  }
+
+  .reserve_text{
+    margin: 30px;
+  }
+
+  .form_btn{
+    margin-top: 50px;
+  }
