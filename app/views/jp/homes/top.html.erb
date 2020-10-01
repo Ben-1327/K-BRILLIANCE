@@ -6,15 +6,17 @@
   </div>
   <div id="about" class="about_space">
     <div class="container">
-      <h2 class="each_title">About Us</h2>
+      <div class="title_area">
+        <h2 class="each_title">About Us</h2>
+      </div>
       <div class="about_contents">
         <div class="row">
           <div class="col img_area">
-            <%= image_tag "shop_01.jpg", :width => "650", :height => "350" %>
+            <%= image_tag "shop_01.jpg", class: "shop_img_01", :width => "650", :height => "350" %>
           </div>
           <div class="col text_area">
-            K-BRILLIANCEでは、高額すぎるネイル・時間がかかりすぎるネイル・いい加減な接客、粗悪な商材などは良しとしていません。<br>
-            低価格の厳しい時代だからこそ本物を目指し、ネイルをやりたいお客様をできるだけ断らず受け入れる為、厳しい技術の基準を設け、短時間で、高技術のネイルをお手頃価格で提供できるように日々努力を続けています。
+            <p>K'BRILLIANCEでは、高額すぎるネイル・時間がかかりすぎるネイル・いい加減な接客、粗悪な商材などは良しとしていません。<br>
+            低価格の厳しい時代だからこそ本物を目指し、ネイルをやりたいお客様をできるだけ断らず受け入れる為、厳しい技術の基準を設け、短時間で、高技術のネイルをお手頃価格で提供できるように日々努力を続けています。</p>
           </div>
         </div>
       </div>
@@ -22,46 +24,92 @@
   </div>
   <div class="menu_area">
     <div class="container">
-      <h2 class="each_title">Menu</h2>
+      <div class="title_area">
+        <h2 class="each_title">Menu</h2>
+      </div>
       <div class="menu_content">
-
+        <table class="menu_table">
+          <thead>
+            <tr>
+              <th>menu</th>
+              <th>duration</th>
+              <th>price</th>
+              <th></th>
+              <th>menu</th>
+              <th>duration</th>
+              <th>price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>メニュー１</td>
+              <td>00min</td>
+              <td>￥0000</td>
+              <td class="td_space"></td>
+              <td>メニュー2</td>
+              <td>00min</td>
+              <td>￥0000</td>
+            </tr>
+            <tr>
+              <td>メニュー3</td>
+              <td>00min</td>
+              <td>￥0000</td>
+              <td class="td_space"></td>
+              <td>メニュー4</td>
+              <td>00min</td>
+              <td>￥0000</td>
+            </tr>
+            <tr>
+              <td>メニュー5</td>
+              <td>00min</td>
+              <td>￥0000</td>
+              <td class="td_space"></td>
+              <td>メニュー6</td>
+              <td>00min</td>
+              <td>￥0000</td>
+            </tr>
+            <tr>
+              <td>メニュー7</td>
+              <td>00min</td>
+              <td>￥0000</td>
+              <td class="td_space"></td>
+              <td>メニュー8</td>
+              <td>00min</td>
+              <td>￥0000</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
   <div class="access_area">
     <div class="container">
-      <h2 class="each_title">Access</h2>
+      <div class="title_area">
+        <h2 class="each_title">Access</h2>
+      </div>
       <div class="row">
         <div class="col img_area">
-          <%= image_tag "shop_02.jpg", :width => "650", :height => "350" %>
+          <%= image_tag "shop_02.jpg", class: "shop_img_02", :width => "650", :height => "350" %>
         </div>
         <div class="col info_area">
-          <h3>プライムワン　京都営業所</h3>
           <table>
+            <h3>K'BRILLIANCE</h3>
             <tbody>
               <tr>
-                <th>所在地</th>
+                <th>Location</th>
                 <td>〒615-0841<br>京都府京都市右京区西京極火打畑町4</td>
               </tr>
               <tr>
-                <th>TEL</th>
+                <th>Tel</th>
                 <td>075-874-3587</td>
               </tr>
               <tr>
-                <th>FAX</th>
-                <td>075-311-5420</td>
+                <th>Business Hours</th>
+                <td>Tue～Sun / 9：00 am ～5:00 pm</td>
               </tr>
               <tr>
-                <th>営業時間</th>
-                <td>月～金曜日 / 9：00～17:00</td>
-              </tr>
-              <tr>
-                <th>定休日</th>
-                <td>土・日・祝日</td>
-              </tr>
-              <tr>
-                <th>最寄駅</th>
-                <td>JR嵯峨野線 八木駅</td>
+                <th>Closed</th>
+                <td>Mon</td>
               </tr>
             </tbody>
           </table>
@@ -69,19 +117,17 @@
       </div>
       <div class="map_area">
         <!-- <div class="map-01" id='map-01'></div> -->
-        <%= image_tag "sample_map.jpg", :width => "650", :height => "350" %>
+        <%= image_tag "sample_map.jpg", class:"sample_map_img", :width => "650", :height => "350" %>
       </div>
     </div>
   </div>
   <div class="reserve_area">
     <div class="container">
-      <h2 class="each_title">Reserve</h2>
+      <div class="title_area">
+        <h2 class="each_title">Reserve</h2>
+      </div>
       <div class="form_btn">
         <%= link_to "Reserve", "#" %>
-      </div>
-      <div class="reserve_text">
-        ご依頼・ご質問・お見積もりは<br>
-        こちらまで
       </div>
     </div>
   </div>
