@@ -10,6 +10,19 @@
   height: 92vh;
 }
 
+.shop_message{
+  position: absolute;
+  top: 70vh;
+  left: 0;
+  width: 100%;
+  display: block;
+
+}
+
+.shop_message h1{
+  text-align: center;
+}
+
 .title_area{
   text-align: center;
 }
@@ -17,4 +30,15 @@
 .each_title{
   display: inline-block;
   background: linear-gradient(transparent 60%, orange 50%);
+}
+
+.text_area{
+  position: relative;
+}
+
+.text_area p{
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
 }
