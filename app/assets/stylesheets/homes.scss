@@ -40,17 +40,20 @@
   margin-bottom: 50px;
 }
 
-.text_area{
-  position: relative;
-  margin-left: 50px;
-}
+// About Us
 
-.text_area p{
-  position: absolute;
-  top: 50%;
-  -webkit-transform : translateY(-50%);
-  transform : translateY(-50%);
-}
+  .text_area{
+    position: relative;
+    margin-left: 50px;
+  }
+
+  .text_area p{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+  }
 
 // Access
   // shop_info
@@ -64,6 +67,7 @@
     }
 
     .shop_info_area h3{
+      font-family: 'CinzelDecorative';
       position: absolute;
       top: 20px;
       left: 30%;
@@ -94,7 +98,7 @@
 
 
 
-// メニューエリア
+// Menu
   .menu_area{
     background-image: image-url("top_img.jpg");
     background-color:rgba(255,255,255,0.6);
@@ -102,9 +106,15 @@
     background-size: cover;
   }
 
-  // メニューテーブル
+  // Menu_table
+
+    .menu_table thead tr th{
+      font-size: 20px;
+      font-weight: bold;
+    }
 
     .menu_table tbody tr td{
+      font-size: 18px;
       padding: 20px 0;
     }
 
@@ -140,6 +150,14 @@
 
   .reserve_text{
     margin: 30px;
+  }
+
+  .reserve_text p{
+    font-size: 20px;
+  }
+
+  .reserve_btn{
+    font-size: 22px;
   }
 
   .form_btn{
