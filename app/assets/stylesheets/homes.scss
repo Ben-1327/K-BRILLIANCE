@@ -149,17 +149,35 @@
   }
 
   .reserve_text{
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
   }
 
   .reserve_text p{
     font-size: 20px;
   }
 
+
+  .form_btn{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    border: solid 3px #eb6ea0;
+    border-radius: 5px;
+  }
+
+  .form_btn:hover{
+    background-color: #eb6ea0;
+    border: solid 3px #eb6ea0;
+  }
+
   .reserve_btn{
+    color: #eb6ea0;
+    line-height: 60px;
     font-size: 22px;
   }
 
-  .form_btn{
-    margin-top: 50px;
+  .reserve_btn:hover{
+    color: white;
   }

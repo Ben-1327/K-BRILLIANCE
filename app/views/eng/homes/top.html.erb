@@ -132,7 +132,7 @@
         </div>
         <div class="col shop_info_area">
           <%= image_tag "logo_01.png", class: "info_logo", :width => "80", :height => "80" %>
-          <h3>K'BRILLIANCE</h3>
+          <h3>K'Brilliance</h3>
           <table class="info_table">
             <tbody>
               <tr>
@@ -148,17 +148,15 @@
                 <th>Business Hours</th>
                 <td>Tue～Sun / 9：00 am ～5:00 pm</td>
               </tr>
-              <tr>
-                <th>Closed</th>
-                <td>Mon</td>
-              </tr>
             </tbody>
           </table>
         </div>
       </div>
       <div class="map_area">
-        <!-- <div class="map-01" id='map-01'></div> -->
-        <%= image_tag "sample_map.jpg", class:"sample_map_img", :width => "650", :height => "350" %>
+        <div class="map-01" id='map-01'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.01867049524!2d135.7758241226228!3d35.00623774941911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108e9f8b072b3%3A0x829abe8624a78104!2z44CSNjA1LTAwODIg5Lqs6YO95bqc5Lqs6YO95biC5p2x5bGx5Yy65Lit5LmL55S677yS77yU77yQIOmWgOWJjeODj-OCpOODoA!5e0!3m2!1sja!2sjp!4v1601786553906!5m2!1sja!2sjp"
+          width="650" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
       </div>
     </div>
   </div>
@@ -171,9 +169,11 @@
         <div class="reserve_text">
           <p>Click here to make a reservation</p>
         </div>
-        <div class="form_btn">
-          <%= link_to "Reserve", "#", class: "reserve_btn link_text" %>
-        </div>
+        <%= link_to "#" do %>
+          <div class="form_btn">
+            <p class="reserve_btn">Reserve</p>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
