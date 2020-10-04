@@ -55,47 +55,6 @@
     transform : translateY(-50%);
   }
 
-// Access
-  // shop_info
-    .shop_info_area{
-      position: relative;
-      margin-left: 50px;
-    }
-
-    .info_logo{
-      position: absolute;
-    }
-
-    .shop_info_area h3{
-      font-family: 'CinzelDecorative';
-      position: absolute;
-      top: 20px;
-      left: 30%;
-    }
-
-    // info table
-      .info_table{
-        position: absolute;
-        top: 50%;
-        -webkit-transform : translateY(-50%);
-        transform : translateY(-50%);
-        margin: 30px 0;
-      }
-
-      .info_table tbody tr td{
-        padding: 10px 0;
-      }
-
-      .info_table tbody th{
-        padding-right: 40px;
-      }
-
-  // マップ
-    .map_area{
-      margin: 40px 0;
-      text-align: center;
-    }
-
 
 
 // Menu
@@ -135,7 +94,49 @@
     }
 
 
-// 予約
+// Access
+  // shop_info
+    .shop_info_area{
+      position: relative;
+      margin-left: 50px;
+    }
+
+    .info_logo{
+      position: absolute;
+    }
+
+    .shop_info_area h3{
+      font-family: 'CinzelDecorative';
+      position: absolute;
+      top: 20px;
+      left: 30%;
+    }
+
+    // info table
+      .info_table{
+        position: absolute;
+        top: 50%;
+        -webkit-transform : translateY(-50%);
+        transform : translateY(-50%);
+        margin: 30px 0;
+      }
+
+      .info_table tbody tr td{
+        padding: 10px 0;
+      }
+
+      .info_table tbody tr th{
+        padding-right: 40px;
+      }
+
+  // Map
+    .map_area{
+      margin: 40px 0;
+      text-align: center;
+    }
+
+
+// Reserve
   .reserve_area{
     background-image: image-url("top_img.jpg");
     background-color:rgba(255,255,255,0.6);

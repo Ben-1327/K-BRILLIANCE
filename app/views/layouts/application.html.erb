@@ -4,6 +4,7 @@
     <title>K'Brilliance</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="viewport" content="width=1365">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -43,9 +44,9 @@
           </select>
         </div>
         <%= link_to root_path do %>
-          <div class="reserve_space">
-            <p>Reserve</p>
-          </div>
+        <div class="reserve_space">
+          <p>Reserve</p>
+        </div>
         <% end %>
       </header>
       <% if flash[:notice] %>
@@ -61,7 +62,7 @@
           <div class="row">
             <div class="col-3 logo_space">
               <%= link_to root_path do %>
-                <%= image_tag "logo_01.png", :width => "100", :height => "100" %>
+                <%= image_tag "logo_01.png", class:"bottom_logo", :width => "100", :height => "100" %>
               <% end %>
             </div>
             <div class="col-1"></div>
