@@ -5,7 +5,7 @@
 
 
 .top_img{
-  background-image: image-url("top_img.jpg");
+  background-image: image-url("top_img.jpeg");
   background-attachment: fixed;
   background-size: cover;
   height: 90vh;
@@ -26,7 +26,7 @@
 
 .shop_message h1{
   text-align: center;
-  color: #404040;
+  color: #efefef;
 }
 
 .title_area{
@@ -59,7 +59,7 @@
 
 // Menu
   .menu_area{
-    background-image: image-url("top_img.jpg");
+    background-image: image-url("top_img02.jpg");
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     background-size: cover;
@@ -138,7 +138,7 @@
 
 // Reserve
   .reserve_area{
-    background-image: image-url("top_img.jpg");
+    background-image: image-url("top_img02.jpg");
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     background-size: cover;
