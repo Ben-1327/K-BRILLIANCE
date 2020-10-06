@@ -5,9 +5,10 @@
 
 
 .top_img{
-  background-image: image-url("top_img.jpeg");
+  background-image: image-url("AdobeStock_143790967_Preview.jpeg");
   background-attachment: fixed;
   background-size: cover;
+  background-position: top;
   height: 90vh;
 }
 
@@ -17,16 +18,20 @@
 
 .shop_message{
   position: absolute;
-  top: 70vh;
-  left: 0;
+  top: 40vh;
+  left: 13%;
   width: 100%;
   display: block;
-
 }
 
 .shop_message h1{
-  text-align: center;
-  color: #efefef;
+  font-family: 'Vogue';
+  font-size: 70px;
+  color: #404040;
+}
+
+.shop_message .with{
+  color: #ffb2ff;
 }
 
 .title_area{

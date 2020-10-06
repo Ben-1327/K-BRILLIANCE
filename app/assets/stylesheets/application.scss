@@ -39,6 +39,13 @@
  font-style: normal;
  }
 
+ @font-face {
+ font-family: 'Vogue';
+ src:asset-url('Vogue.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ }
+
  * {
   margin: 0;
   padding: 0;
