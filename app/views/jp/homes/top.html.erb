@@ -1,13 +1,16 @@
-<%= stylesheet_link_tag 'homes' %>
+<%= stylesheet_link_tag 'homes', 'homes_responsive' %>
 
 <div class="top_page">
   <div class="top_img">
-    <h1>" We know beauty<br>So get beautiful with us "</h1>
+    <div class="shop_message">
+      <h1>We know beauty<br>So get beautiful</h1>
+      <h1 class="with">with us</h1>
+    </div>
   </div>
-  <div id="about" class="about_space">
+  <div id="about" class="about_area area">
     <div class="container">
       <div class="title_area">
-        <h2 class="each_title">About Us</h2>
+        <h2 class="each_title">概要</h2>
       </div>
       <div class="about_contents">
         <div class="row">
@@ -15,121 +18,163 @@
             <%= image_tag "shop_01.jpg", class: "shop_img_01", :width => "650", :height => "350" %>
           </div>
           <div class="col text_area">
-            <p>Beauty is our Duty to Refresh your Skin<br>
-              And to Feel Young Make time for you<br>
-              A whole New you Beauty from Head to Toe<br>
-              So get ready to relax</p>
+            <p>美しさとはあなたの肌をリフレッシュし、<br>
+              若さを感じる時間をあなたへ与へます。<br>
+              全身生まれ変わった美しさを手に入れましょう。<br>
+              もう準備は整いましたか？</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="menu_area">
+  <div class="menu_area area">
     <div class="container">
       <div class="title_area">
-        <h2 class="each_title">Menu</h2>
+        <h2 class="each_title">メニュー</h2>
       </div>
       <div class="menu_content">
         <table class="menu_table">
           <thead>
             <tr>
-              <th>menu</th>
-              <th>duration</th>
-              <th>price</th>
-              <th></th>
-              <th>menu</th>
-              <th>duration</th>
-              <th>price</th>
+              <th class="menu_name">Menu</th>
+              <th class="menu_duration">duration</th>
+              <th class="menu_price">Price</th>
+              <th class="menu_gap"></th>
+              <th class="menu_name">Menu</th>
+              <th class="menu_duration">Duration</th>
+              <th class="menu_price">Price</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>メニュー１</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>マイクロブレーディング</td>
+              <td>--</td>
+              <td>35,000円</td>
               <td class="td_space"></td>
-              <td>メニュー2</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>マイクロシェーディング</td>
+              <td>--</td>
+              <td>17,000円</td>
             </tr>
             <tr>
-              <td>メニュー3</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>スペシャル眉毛</td>
+              <td>--</td>
+              <td>5,000円</td>
               <td class="td_space"></td>
-              <td>メニュー4</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>BB-Glow</td>
+              <td>--</td>
+              <td>17,000円</td>
             </tr>
             <tr>
-              <td>メニュー5</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>コラーゲン美顔法 + BB Glow</td>
+              <td>--</td>
+              <td>20,000円</td>
               <td class="td_space"></td>
-              <td>メニュー6</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>脇下脱毛<br>
+              5 セッション</td>
+              <td>--</td>
+              <td>5,000円<br>
+              20,000円</td>
             </tr>
             <tr>
-              <td>メニュー7</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>縮毛矯正 + ヘアカラー<br>
+              (ショートヘア)</td>
+              <td>--</td>
+              <td>10,000円</td>
               <td class="td_space"></td>
-              <td>メニュー8</td>
-              <td>00min</td>
-              <td>￥0000</td>
+              <td>縮毛矯正 + ヘアカラー<br>
+              (ロングヘア)</td>
+              <td>--</td>
+              <td>15,000円</td>
+            </tr>
+            <tr>
+              <td>Facial + Omega light<br>
+                 W/ whitening collagen</td>
+              <td>--</td>
+              <td>5,000円</td>
+              <td class="td_space"></td>
+              <td>Facial + Led face mask Collagen<br>
+                W / 24k whitening </td>
+              <td>--</td>
+              <td>10,000円</td>
+            </tr>
+            <tr>
+              <td>Slimming</td>
+              <td>30mins-1hr</td>
+              <td>10,000円</td>
+              <td class="td_space"></td>
+              <td>Diamond peel</td>
+              <td>--</td>
+              <td>6,000円</td>
+            </tr>
+            <tr>
+              <td>Diamond peel+ facial collagen+omega light<br>
+                W/ 24k anti aging</td>
+              <td>--</td>
+              <td>15,000円</td>
+              <td class="td_space"></td>
+              <td>Diamond peel + facial collagen+ led face mask<br>
+                W/ whitening</td>
+              <td>--</td>
+              <td>10,000円</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
   </div>
-  <div class="access_area">
+  <div class="access_area area">
     <div class="container">
       <div class="title_area">
-        <h2 class="each_title">Access</h2>
+        <h2 class="each_title">アクセス</h2>
       </div>
-      <div class="row">
+      <div class="row info_area">
         <div class="col img_area">
           <%= image_tag "shop_02.jpg", class: "shop_img_02", :width => "650", :height => "350" %>
         </div>
-        <div class="col info_area">
-          <table>
-            <h3>K'BRILLIANCE</h3>
+        <div class="col shop_info_area">
+          <%= image_tag "logo_01.png", class: "info_logo", :width => "80", :height => "80" %>
+          <h3>K'Brilliance</h3>
+          <table class="info_table">
             <tbody>
               <tr>
-                <th>Location</th>
-                <td>〒605-0082<br>京都市東山区新門前通大和大路東入2丁目　中之町240-1 門前ハイム201</td>
+                <th>場所</th>
+                <td>〒605-0082<br>
+                  京都市東山区新門前通大和大路東入2丁目　中之町240-1　門前ハイム201</td>
               </tr>
               <tr>
-                <th>Tel</th>
+                <th>電話</th>
                 <td>075-874-3587</td>
               </tr>
               <tr>
-                <th>Business Hours</th>
+                <th>営業時間</th>
                 <td>Tue～Sun / 9：00 am ～5:00 pm</td>
-              </tr>
-              <tr>
-                <th>Closed</th>
-                <td>Mon</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
       <div class="map_area">
-        <!-- <div class="map-01" id='map-01'></div> -->
-        <%= image_tag "sample_map.jpg", class:"sample_map_img", :width => "650", :height => "350" %>
+        <div class="map-01" id='map-01'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.01867049524!2d135.7758241226228!3d35.00623774941911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108e9f8b072b3%3A0x829abe8624a78104!2z44CSNjA1LTAwODIg5Lqs6YO95bqc5Lqs6YO95biC5p2x5bGx5Yy65Lit5LmL55S677yS77yU77yQIOmWgOWJjeODj-OCpOODoA!5e0!3m2!1sja!2sjp!4v1601786553906!5m2!1sja!2sjp"
+          width="650" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="GMap"></iframe>
+        </div>
       </div>
     </div>
   </div>
-  <div class="reserve_area">
+  <div class="reserve_area area">
     <div class="container">
       <div class="title_area">
-        <h2 class="each_title">Reserve</h2>
+        <h2 class="each_title">予約</h2>
       </div>
-      <div class="form_btn">
-        <%= link_to "Reserve", "#" %>
+      <div class="reserve_contents">
+        <div class="reserve_text">
+          <p>ご予約はこちらから</p>
+        </div>
+        <%= link_to "#" do %>
+          <div class="form_btn">
+            <p class="reserve_btn">予約する</p>
+          </div>
+        <% end %>
       </div>
     </div>
   </div>
