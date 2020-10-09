@@ -5,7 +5,7 @@
 
 
 .top_img{
-  background-image: image-url("AdobeStock_143790967_Preview.jpeg");
+  background-image: image-url("beauty_01.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
@@ -18,20 +18,20 @@
 
 .shop_message{
   position: absolute;
-  top: 40vh;
-  left: 13%;
-  width: 100%;
+  top: 30vh;
+  left: 10%;
   display: block;
 }
 
 .shop_message h1{
   font-family: 'Vogue';
   font-size: 70px;
+  line-height: 1.5;
   color: #404040;
 }
 
 .shop_message .with{
-  color: #ffb2ff;
+  color: #ff0000;
 }
 
 .title_area{
@@ -96,6 +96,12 @@
 
     .menu_gap{
       width: 50px;
+    }
+
+  // img_area
+    .img_area_01{
+      display: inline-block;
+      text-align: center;
     }
 
 
