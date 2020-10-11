@@ -24,7 +24,8 @@
 }
 
 .shop_message h1{
-  font-family: 'Vogue';
+  font-family: 'Times New Roman';
+  font-weight: bold;
   font-size: 70px;
   line-height: 1.5;
   color: #404040;
@@ -46,6 +47,10 @@
 }
 
 // About Us
+  .shop_img_01{
+    width: 650px;
+    height: 350px;
+  }
 
   .text_area{
     position: relative;
@@ -53,7 +58,8 @@
   }
 
   .text_area p{
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 1.8;
     position: absolute;
     top: 50%;
     -webkit-transform : translateY(-50%);
@@ -68,6 +74,11 @@
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     background-size: cover;
+  }
+
+  .menu_img{
+    width: 15%;
+    height: auto;
   }
 
   // Menu_table
@@ -116,11 +127,11 @@
       position: absolute;
     }
 
-    .shop_info_area h3{
-      font-family: 'CinzelDecorative';
+    .shop_name_02{
       position: absolute;
-      top: 20px;
+      top: 50px;
       left: 30%;
+
     }
 
     // info table

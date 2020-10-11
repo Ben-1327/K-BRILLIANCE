@@ -46,12 +46,19 @@
  font-style: normal;
  }
 
+ @font-face {
+ font-family: 'Diagramm-Regular';
+ src:asset-url('Diagramm-Regular.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ }
+
  * {
   margin: 0;
   padding: 0;
   max-width: 100%;
   box-sizing: border-box;
-  font-family:'Hannari';
+  font-family:'Diagramm-Regular';
   color: #404040;
  }
 
@@ -96,7 +103,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 170px;
+  width: 500px;
   line-height: 10vh;
  }
 
@@ -111,6 +118,11 @@
  .top_logo{
    padding: 5px;
    margin-left: 30px;
+ }
+
+ .text_logo{
+   margin-left: 20px;
+   width: 250px;
  }
 
  .nav_space {
