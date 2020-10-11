@@ -5,7 +5,7 @@
 
 
 .top_img{
-  background-image: image-url("beauty_01.jpeg");
+  background-image: image-url("img/beauty_01.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
@@ -70,7 +70,7 @@
 
 // Menu
   .menu_area{
-    background-image: image-url("top_img02.jpg");
+    background-image: image-url("img/top_img02.jpg");
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     background-size: cover;
@@ -118,6 +118,11 @@
 
 // Access
   // shop_info
+    .shop_img_02{
+      width: 650px;
+      height: auto;
+    }
+
     .shop_info_area{
       position: relative;
       margin-left: 50px;
@@ -125,6 +130,8 @@
 
     .info_logo{
       position: absolute;
+      width: 120px;
+      height: 120px;
     }
 
     .shop_name_02{
@@ -160,7 +167,7 @@
 
 // Reserve
   .reserve_area{
-    background-image: image-url("top_img02.jpg");
+    background-image: image-url("img/top_img02.jpg");
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
     background-size: cover;
